@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  background-color: #474b53;
+  justify-content: center;
+}
+
+.nav-link {
+  color: #d4e2ff!important;
+  font-size: large;
+}
+
+/* vertical dividors */
+.vr {
+  color: #d4e2ff!important;
+  margin: 0.75em;
+}

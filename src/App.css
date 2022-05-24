@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  background-color: #34373e;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App-img {
+  height: 40vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -51,4 +56,12 @@
 .vr {
   color: #d4e2ff!important;
   margin: 0.75em;
+}
+
+.card {
+  background-color: #474b53!important;
+}
+
+.skill-icon {
+  height: 8vmin;
 }

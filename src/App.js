@@ -2,9 +2,9 @@ import { Nav } from 'react-bootstrap'
 
 import logo from './logo.svg';
 import profpi from './profpi.jpg';
-// import test from './img/html5-icon-1.png';
+import test from './img/nodejs-icon.svg';
 
-import {html, css, react, js} from './img'
+import {html, css, react, node, express, js} from './img'
 
 import './App.css';
 
@@ -25,12 +25,12 @@ const skills = [
         img: react
       },
       { 
-        name: "Node.js",
-        img: "./img/html5-icon-1.png"
+        name: "Nodejs",
+        img: test
       },
       { 
         name: "Express",
-        img: "./img/html5-icon-1.png"
+        img: express
       }
     ]
   },
@@ -75,7 +75,7 @@ const skills = [
         img: "./img/html5-icon-1.png"
       },
       { 
-        name: "Node.js",
+        name: "Node js",
         img: "./img/html5-icon-1.png"
       },
       { 

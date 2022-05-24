@@ -59,9 +59,13 @@
 }
 
 .card {
-  background-color: #474b53!important;
+  background-color: #4f535c!important;
 }
 
 .skill-icon {
-  height: 8vmin;
+  height: 70px;
+}
+
+#React {
+  height: 50px;
 }

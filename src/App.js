@@ -2,9 +2,9 @@ import { Nav } from 'react-bootstrap'
 
 import logo from './logo.svg';
 import profpi from './profpi.jpg';
-import test from './img/html5-icon-1.png';
+// import test from './img/html5-icon-1.png';
 
-import {html, css} from './img'
+import {html, css, react, js} from './img'
 
 import './App.css';
 
@@ -22,7 +22,7 @@ const skills = [
       },
       { 
         name: "React",
-        img: "./img/html5-icon-1.png"
+        img: react
       },
       { 
         name: "Node.js",
@@ -67,8 +67,8 @@ const skills = [
         img: "./img/html5-icon-1.png"
       },
       { 
-        name: "CSS",
-        img: "./img/html5-icon-1.png"
+        name: "JavaScript",
+        img: js
       },
       { 
         name: "React",
@@ -175,7 +175,7 @@ function AboutMe() {
                     <div key={skill.name}>
                       {console.log(skill.name)}
                       {/* <img src={test} className="App-img" alt="logo" /> */}
-                      <img src={skill.img} className="skill-icon" alt="..." />
+                      <img id={skill.name} src={skill.img} className="skill-icon" alt="..." />
                       <h5 className="card-title">{skill.name}</h5>
                     </div>
                   ))}

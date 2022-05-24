@@ -1,6 +1,7 @@
 import { Nav } from 'react-bootstrap'
 
 import logo from './logo.svg';
+import profpi from './profpi.jpg';
 import './App.css';
 
 
@@ -10,6 +11,8 @@ function App() {
       <MainNav />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={profpi} className="App-logo" alt="logo" />
+        {/* <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> */}
         <h1> Gloria Yoon</h1>
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.

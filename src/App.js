@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import profpi from './profpi.jpg';
 import test from './img/nodejs-icon.svg';
 
-import {html, css, react, node, express, js, python, mysql, mongodb, postgresql} from './img'
+import {html, css, react, node, express, flask, js, python, mysql, mongodb, postgresql} from './img'
 
 import './App.css';
 
@@ -47,7 +47,7 @@ const skills = [
       },
       { 
         name: "Flask",
-        img: "./img/html5-icon-1.png"
+        img: flask
       },
       { 
         name: "Express",
@@ -164,7 +164,7 @@ function AboutMe() {
                <div className="card-body">
 
                   {group.skills.map((skill) => (
-                    <div key={skill.name}>
+                    <div className="skill-div" key={skill.name}>
                       {console.log(skill.name)}
                       {/* <img src={test} className="App-img" alt="logo" /> */}
                       <img id={skill.name} src={skill.img} className="skill-icon" alt="..." />

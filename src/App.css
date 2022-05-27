@@ -69,7 +69,8 @@
 
 .skill-icon {
   /* height: 70px; */
-  width: 8vmin;
+  /* width: 8vmin; */
+  width: 70px;
   min-height: 3vmin;
 }
 

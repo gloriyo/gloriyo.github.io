@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import profpi from './profpi.jpg';
 import test from './img/nodejs-icon.svg';
 
-import {html, css, react, node, express, js, mysql, mongodb, postgresql} from './img'
+import {html, css, react, node, express, js, python, mysql, mongodb, postgresql} from './img'
 
 import './App.css';
 
@@ -64,7 +64,7 @@ const skills = [
       },
       { 
         name: "Python",
-        img: "./img/html5-icon-1.png"
+        img: python
       },
       { 
         name: "C/C++",
@@ -107,7 +107,7 @@ function App() {
   return (
     <div className="App">
       <MainNav />
-      <div className="d-flex justify-content-center mx-sm-4 mx-md-5 px-sm-1 px-md-4">
+      <div className="d-flex justify-content-center container-sm">
         <AboutMe />
       </div>
       
@@ -143,7 +143,7 @@ function MainNav() {
 function AboutMe() {
   return(
     <div className="aboutme ">
-      <header className="App-header p-md-4">
+      <header className="App-header p-md-5">
         <img src={logo} className="App-logo" alt="logo" />
         {/* <img src={profpi} className="App-img" alt="logo" /> */}
         
@@ -156,10 +156,10 @@ function AboutMe() {
         <p className="lead">
           Computer Science student at SFU and aspiring web developer.
         </p>
-        <div className="card-deck row row-cols-1 row-cols-sm-2 row-cols-md-4 p-3">
+        <div className="card-deck row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 p-lg-5 container-sm">
           {skills.map((group) => (
             <div key={group.group} className="col">
-             <div className="card">
+             <div className="card my-4">
                <div className="card-header">{group.group}</div>
                <div className="card-body">
 

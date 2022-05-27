@@ -59,14 +59,32 @@
 }
 
 .card {
-  background-color: #4f535c!important;
+  background-color: #61dafbe3!important;
+}
+
+.card-title {
+  color: #cdf4ffe8!important;
+  font-size: 1rem
 }
 
 .skill-icon {
   /* height: 70px; */
   width: 8vmin;
+  min-height: 3vmin;
 }
 
 #React {
   height: 50px;
+}
+
+#Express {
+  width: 90px;
+}
+
+#mySQL{
+  width: 90px;
+}
+
+#mongoDB {
+  width: 100px;
 }

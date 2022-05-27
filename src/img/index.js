@@ -4,3 +4,7 @@ export const js = require("./js-icon.png")
 export const react = require("./react-icon.png")
 export const node = require("./nodejs-icon.svg")
 export const express = require("./ExpressJS-logo.png")
+
+export const mysql = require("./mysql-icon.png")
+export const mongodb = require("./mongodb-icon.png")
+export const postgresql = require("./postgresql-icon.png")

@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import profpi from './profpi.jpg';
 import test from './img/nodejs-icon.svg';
 
-import {html, css, react, node, express, js} from './img'
+import {html, css, react, node, express, js, mysql, mongodb, postgresql} from './img'
 
 import './App.css';
 
@@ -25,32 +25,28 @@ const skills = [
         img: react
       },
       { 
-        name: "Nodejs",
-        img: test
+        name: "Bootstrap",
+        img: "./img/html5-icon-1.png"
       },
       { 
-        name: "Express",
-        img: express
-      }
+        name: "jQuery",
+        img: "./img/html5-icon-1.png"
+      },
     ]
   },
   {
     group: "Backend",
     skills: [
       { 
-        name: "HTML5",
-        img: "./img/html5-icon-1.png"
-      },
-      { 
-        name: "CSS",
-        img: "./img/html5-icon-1.png"
-      },
-      { 
-        name: "React",
-        img: "./img/html5-icon-1.png"
-      },
-      { 
         name: "Node.js",
+        img: test
+      },
+      { 
+        name: "Express",
+        img: express
+      },
+      { 
+        name: "Flask",
         img: "./img/html5-icon-1.png"
       },
       { 
@@ -63,23 +59,19 @@ const skills = [
     group: "Languages",
     skills: [
       { 
-        name: "HTML5",
-        img: "./img/html5-icon-1.png"
-      },
-      { 
         name: "JavaScript",
         img: js
       },
       { 
-        name: "React",
+        name: "Python",
         img: "./img/html5-icon-1.png"
       },
       { 
-        name: "Node js",
+        name: "C/C++",
         img: "./img/html5-icon-1.png"
       },
       { 
-        name: "Express",
+        name: "Java",
         img: "./img/html5-icon-1.png"
       }
     ]
@@ -88,16 +80,16 @@ const skills = [
     group: "Database",
     skills: [
       { 
-        name: "HTML5",
-        img: "./img/html5-icon-1.png"
+        name: "mySQL",
+        img: mysql
       },
       { 
-        name: "CSS",
-        img: "./img/html5-icon-1.png"
+        name: "mongoDB",
+        img: mongodb
       },
       { 
-        name: "React",
-        img: "./img/html5-icon-1.png"
+        name: "PostgreSQL",
+        img: postgresql
       },
       { 
         name: "Node.js",

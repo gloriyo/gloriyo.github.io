@@ -33,6 +33,10 @@
   color: #61dafb;
 }
 
+.aboutme {
+  max-width: 70%!important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -56,6 +60,10 @@
 .vr {
   color: #d4e2ff!important;
   margin: 0.75em;
+}
+
+.row-cols-xl-4 {
+  width: fit-content;
 }
 
 .card {

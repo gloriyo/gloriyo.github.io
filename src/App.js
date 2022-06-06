@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import profpi from './profpi.jpg';
 import test from './img/nodejs-icon.svg';
 
-import {html, css, react, node, express, flask, js, python, mysql, mongodb, postgresql} from './img'
+import {html, css, react, bootstrap, jquery, node, express, flask, js, python, cLang, cPlus, java, mysql, mongodb, postgresql, dynamboDB} from './img'
 
 import './App.css';
 
@@ -26,11 +26,11 @@ const skills = [
       },
       { 
         name: "Bootstrap",
-        img: "./img/html5-icon-1.png"
+        img: bootstrap
       },
       { 
         name: "jQuery",
-        img: "./img/html5-icon-1.png"
+        img: jquery
       },
     ]
   },
@@ -49,10 +49,6 @@ const skills = [
         name: "Flask",
         img: flask
       },
-      { 
-        name: "Express",
-        img: "./img/html5-icon-1.png"
-      }
     ]
   },
   {
@@ -68,11 +64,11 @@ const skills = [
       },
       { 
         name: "C/C++",
-        img: "./img/html5-icon-1.png"
+        img: cPlus
       },
       { 
         name: "Java",
-        img: "./img/html5-icon-1.png"
+        img: java
       }
     ]
   },
@@ -92,13 +88,9 @@ const skills = [
         img: postgresql
       },
       { 
-        name: "Node.js",
-        img: "./img/html5-icon-1.png"
+        name: "DynamboDB",
+        img: dynamboDB
       },
-      { 
-        name: "Express",
-        img: "./img/html5-icon-1.png"
-      }
     ]
   }
 ]
@@ -107,7 +99,7 @@ function App() {
   return (
     <div className="App">
       <MainNav />
-      <div className="d-flex justify-content-center container-sm">
+      <div className="d-flex justify-content-center">
         <AboutMe />
       </div>
       
@@ -142,8 +134,8 @@ function MainNav() {
 
 function AboutMe() {
   return(
-    <div className="aboutme ">
-      <header className="App-header p-md-5">
+    <div className="aboutme container-sm">
+      <header className="App-header p-md-3">
         <img src={logo} className="App-logo" alt="logo" />
         {/* <img src={profpi} className="App-img" alt="logo" /> */}
         
@@ -156,7 +148,7 @@ function AboutMe() {
         <p className="lead">
           Computer Science student at SFU and aspiring web developer.
         </p>
-        <div className="card-deck row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 p-lg-5 container-sm">
+        <div className="card-columns row row-cols-1 row-cols-sm-2 row-cols-xl-4 p-lg-5 container-xl">
           {skills.map((group) => (
             <div key={group.group} className="col">
              <div className="card my-4">
@@ -177,7 +169,7 @@ function AboutMe() {
            </div>
           ))}
 
-          
+{/*           
           <div className="col">
             <div className="card">
               <div className="card-header">Front-End</div>
@@ -215,7 +207,7 @@ function AboutMe() {
                 <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <a

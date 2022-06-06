@@ -5,7 +5,8 @@ import logo from './img/gloria.png';
 import profpi from './profpi.jpg';
 import test from './img/nodejs-icon.svg';
 
-import {html, css, react, bootstrap, jquery, node, express, flask, js, python, cLang, cPlus, java, mysql, mongodb, postgresql, dynamboDB} from './img'
+import {html, css, react, bootstrap, jquery, node, express, flask, js, python, cLang, cPlus, java, mysql, mongodb, postgresql, dynamboDB,
+        proj_Demo} from './img'
 
 import './App.css';
 
@@ -100,8 +101,9 @@ function App() {
   return (
     <div className="App">
       <MainNav />
-      <div className="d-flex justify-content-center">
+      <div className=" justify-content-center">
         <AboutMe />
+        <Projects />
       </div>
       
     </div>
@@ -142,12 +144,9 @@ function AboutMe() {
         
         {/* <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> */}
         <h1 className="display-3"> Gloria Yoon</h1>
-        {/* <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p> */}
 
         <p className="lead">
-          Computer Science student at SFU and aspiring web developer.
+          Computer Science student at SFU with interest in software and web development.
         </p>
         <div className="card-columns row row-cols-1 row-cols-sm-2 row-cols-xl-4 p-lg-5 container-xl">
           {skills.map((group) => (
@@ -169,59 +168,93 @@ function AboutMe() {
              </div>
            </div>
           ))}
-
-{/*           
-          <div className="col">
-            <div className="card">
-              <div className="card-header">Front-End</div>
-              <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card">
-              <div className="card-header">Back-End</div>
-              <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text"></p>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div> */}
         </div>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>    
   )
 }
+
+
+function Projects() {
+  return(
+    <div className="aboutme container-sm">
+      <header className="App-header p-md-3">
+
+        <h1 className="display-3">Projects</h1>
+
+        <p className="lead">
+          Computer Science student at SFU with interest in software and web development.
+        </p>
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 p-lg-5">
+          <div class="col">
+            <div class="card h-100">
+              <img src={proj_Demo} class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a short card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src={proj_Demo} alt="Card image cap"/>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap"/>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="..." alt="Card image cap"/>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div> */}
+      </header>
+    </div>    
+  )
+}
+
+
+
 
 export default App;

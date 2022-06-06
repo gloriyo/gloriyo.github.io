@@ -18,3 +18,5 @@ export const mysql = require("./mysql-icon.png")
 export const mongodb = require("./mongodb-icon.png")
 export const postgresql = require("./postgresql-icon.png")
 export const dynamboDB = require("./DynamoDB-icon.png")
+
+export const proj_Demo = require("./projects/proj-mapf-demo.png")

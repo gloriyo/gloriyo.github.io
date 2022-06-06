@@ -1,6 +1,7 @@
 import { Nav } from 'react-bootstrap'
 
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import logo from './img/gloria.png';
 import profpi from './profpi.jpg';
 import test from './img/nodejs-icon.svg';
 

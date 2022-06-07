@@ -6,7 +6,7 @@ import profpi from './profpi.jpg';
 import test from './img/nodejs-icon.svg';
 
 import {html, css, react, bootstrap, jquery, node, express, flask, js, python, cLang, cPlus, java, mysql, mongodb, postgresql, dynamboDB,
-        proj_Demo} from './img'
+        proj_Demo, proj_VolunteerMe} from './img'
 
 import './App.css';
 
@@ -197,7 +197,7 @@ function Projects() {
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="..." class="card-img-top" alt="..."/>
+              <img src={proj_VolunteerMe} class="card-img-top" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a short card.</p>

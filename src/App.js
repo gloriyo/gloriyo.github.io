@@ -150,7 +150,7 @@ function AboutMe() {
         {/* <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> */}
         <h1 className="display-3" id="cv"> Gloria Yoon</h1>
 
-        <p className="lead p-3">
+        <p className="lead px-4">
           Computer Science student at SFU with interest in software and web development.
         </p>
         <div className="card-columns row row-cols-1 row-cols-sm-2 row-cols-xl-4 p-lg-5 container-xl">
@@ -187,7 +187,7 @@ function Projects() {
 
         <h1 className="display-3">Projects</h1>
 
-        <p className="lead p-3">
+        <p className="lead px-4">
           Currently ongoing projects and recently completed projects.
         </p>
         <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 p-lg-5">

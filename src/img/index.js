@@ -21,3 +21,4 @@ export const dynamboDB = require("./DynamoDB-icon.png")
 
 export const proj_Demo = require("./projects/proj-mapf-demo.png")
 export const proj_VolunteerMe = require("./projects/proj-volunteerme.png")
+export const proj_Airbnb = require("./projects/proj-airbnb.png")

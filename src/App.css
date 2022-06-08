@@ -57,6 +57,10 @@
   font-size: large;
 }
 
+.nav-disabled {
+  opacity: 40%;
+}
+
 /* vertical dividors */
 .vr {
   color: #d4e2ff!important;
@@ -77,6 +81,11 @@
   /* margin: 1rem; */
   margin: 0.5rem 0 1rem;
 }
+
+.card-footer {
+  font-size: 1rem;
+}
+
 
 .skill-div {
   min-height: 90px;

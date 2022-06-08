@@ -34,9 +34,9 @@
   color: #61dafb;
 }
 
-.aboutme {
-  max-width: 80%!important;
-}
+/* .aboutme {
+  max-width: 1200px!important;
+} */
 
 @keyframes App-logo-spin {
   from {

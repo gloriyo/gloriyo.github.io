@@ -8,7 +8,8 @@ import test from './img/nodejs-icon.svg';
 import {html, css, react, bootstrap, jquery, node, express, flask, js, python, cLang, cPlus, java, mysql, mongodb, postgresql, dynamboDB,
         proj_Demo, proj_VolunteerMe, proj_Airbnb} from './img'
 
-import './App.css';
+import './css/App.css';
+import './css/main.css';
 
 const skills = [
   {
@@ -142,7 +143,7 @@ function MainNav() {
 function AboutMe() {
   return(
     <div className="aboutme container-sm">
-      <header className="App-header p-md-3">
+      <header className="App-header p-md-3 mx-lg-5">
         <img src={logo} className="App-logo" alt="logo" />
         {/* <img src={profpi} className="App-img" alt="logo" /> */}
         
@@ -182,7 +183,7 @@ function AboutMe() {
 function Projects() {
   return(
     <div id="section-projects" className="aboutme container-sm">
-      <header className="App-header p-md-3">
+      <header className="App-header  p-4 p-md-5 mx-lg-5">
 
         <h1 className="display-3">Projects</h1>
 

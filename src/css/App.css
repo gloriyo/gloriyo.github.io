@@ -86,6 +86,9 @@
   font-size: 1rem;
 }
 
+.card-link {
+  color: #eeeeee;
+}
 
 .skill-div {
   min-height: 90px;

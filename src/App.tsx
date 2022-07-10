@@ -5,7 +5,7 @@ import { Nav } from 'react-bootstrap'
 // import profpi from './profpi.jpg';
 // import test from './img/nodejs-icon.svg';
 
-import {logo, html, css, react, bootstrap, jquery, node, express, flask, js, python, cLang, cPlus, java, mysql, mongodb, postgresql, dynamboDB,
+import {logo, html, css, react, bootstrap, jquery, nodejs, express, flask, js, python, cLang, cPlus, java, mysql, mongodb, postgresql, dynamboDB,
         proj_Demo, proj_VolunteerMe, proj_Airbnb} from './img'
 
 import './css/App.css';
@@ -49,7 +49,7 @@ const skills = [
     skills: [
       { 
         name: "Node.js",
-        img: node
+        img: nodejs
       },
       { 
         name: "Express",

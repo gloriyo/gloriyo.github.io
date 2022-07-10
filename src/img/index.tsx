@@ -7,7 +7,7 @@ export const react = require("./react-icon.png")
 export const bootstrap = require("./Bootstrap-icon.png")
 export const jquery = require("./jquery-icon.png")
 
-export const node = require("./nodejs-icon.svg")
+export const nodejs = require("./nodejs-new-pantone-black.png")
 export const express = require("./ExpressJS-logo.png")
 export const flask = require("./flask-icon.png")
 

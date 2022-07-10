@@ -9,7 +9,7 @@ const TopNav = () => {
             <Container>
                 <Navbar.Brand href="/">Welcome</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="tic-tac-toe">Tic-Tac-Toe</Nav.Link>
+                    <Nav.Link className="game-nav-link" href="tic-tac-toe">Tic-Tac-Toe</Nav.Link>
                     <Nav.Link href="bricks">Bricks</Nav.Link>
                 </Nav>
                 

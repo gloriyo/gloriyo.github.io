@@ -34,13 +34,13 @@
 }
 
 .box {
-    line-height: 100px;
-    height: 100px;
+    line-height: 150px;
+    height: 150px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 100px;
+    width: 150px;
     
     background: transparent;
     border: none;
@@ -51,8 +51,8 @@
 }
 
 .box > img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 canvas {
@@ -92,7 +92,7 @@ canvas {
     
     background-color: #ffc100 !important;
     border: none !important;
-    width: 100px;
+    width: 150px;
     font-size: small !important;
     color: white !important;
 
@@ -104,7 +104,7 @@ canvas {
 
 .play-button:hover {
     background-color: #ffa900  !important;
-    width: 100px;
+    width: 150px;
     font-size: small !important;
 }
 
@@ -121,13 +121,13 @@ canvas {
 }
 
 .box {
-    line-height: 100px;
-    height: 100px;
+    line-height: 150px;
+    height: 150px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 100px;
+    width: 150px;
     
     background: transparent;
     border: none;
@@ -138,8 +138,8 @@ canvas {
 }
 
 .box > img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 canvas {
@@ -193,6 +193,6 @@ canvas {
 
 .play-button:hover {
     background-color: #ffa900  !important;
-    width: 100px;
+    width: 150px;
     font-size: small !important;
 }

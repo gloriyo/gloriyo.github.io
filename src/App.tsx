@@ -108,10 +108,11 @@ const skills = [
 function App() {
   return (
     <div className="App">
-      <Portfolio />
+      
       {/* <TopNav /> */}
 			<BrowserRouter>
 				<Routes>
+        <Route path="/" element={<Portfolio />} />
 					<Route path="/game" element={<Game game="tic-tac-toe" />} />
 					<Route path="tic-tac-toe" element={<Game game="tic-tac-toe" />} />
 					<Route path="bricks" element={<Game game="bricks"/>} />

@@ -11,11 +11,13 @@
     font-size: 1.2em !important;
   }
   
-
+.game-nav {
+    font-size: 1.6em !important;
+}
 
 .game-nav-link {
     color: rgba(0, 0, 0, 0.55) !important;
-    font-size: large;
+    font-size: 1em;
 }
 
 .game-cnt {
@@ -58,6 +60,11 @@
 canvas {
     width: 420px;
 }
+
+#canvas-cnt {
+    padding: 1em;
+}
+
 
 #canvas-cnt:focus {
     outline: none;

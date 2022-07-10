@@ -152,7 +152,7 @@ function MainNav() {
       </Nav.Item>
       <div className="vr"></div>
       <Nav.Item>
-        <Nav.Link href="playground">Play</Nav.Link>
+        <Nav.Link href="game">Play</Nav.Link>
       </Nav.Item>
       <div className="vr"></div>
       <Nav.Item>

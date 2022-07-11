@@ -80,7 +80,7 @@ brickCoords.forEach((row, i) => {
 
 const Canvas = () => {
 
-    const [gameStatus, setGameStatus] = useState("ongoing");
+    const [gameStatus, setGameStatus, gameStatusRef] = useState("ongoing");
 
     const [gameScore, setGameScore, gameScoreRef] = useState(0);
 
@@ -225,7 +225,6 @@ const Canvas = () => {
                 }
             }
 
-
             // check if ball hit the side walls
             if (nextBallx > canvasWidth-ballWidth ||
                 nextBallx < 0) {
@@ -241,8 +240,11 @@ const Canvas = () => {
             else if (nextBally > canvasHeight-ballWidth) {
 
                     // Game Over
+                if (gameStatusRef.current === "ongoing") {
                     setGameStatus("lost");
                     console.log("gameover")
+                }
+
 
                     // console.log(canvasIntervalRef.current)
 

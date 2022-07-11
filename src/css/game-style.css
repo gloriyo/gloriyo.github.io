@@ -3,14 +3,14 @@
     background-color: white;
   } */
 
-  .navbar {
+.navbar {
     font-size: 1.75em;
-  }
-  
-  .navbar-brand {
+}
+
+.navbar-brand {
     font-size: 1.2em !important;
-  }
-  
+}
+
 .game-nav {
     font-size: 1.6em !important;
 }
@@ -36,13 +36,13 @@
 }
 
 .box {
-    line-height: 150px;
-    height: 150px;
+    line-height: 170px;
+    height: 170px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 150px;
+    width: 170px;
     
     background: transparent;
     border: none;
@@ -53,8 +53,8 @@
 }
 
 .box > img {
-    height: 150px;
-    width: 150px;
+    height: 170px;
+    width: 170px;
 }
 
 canvas {
@@ -80,27 +80,23 @@ canvas {
     /* background-color: #40d2ffd3; */
     background-color: #f2f6f8b9;
     position: absolute !important;
-    /* padding: 1rem 1rem; */
-    /* margin-bottom: 1rem !important; */
-    /* border: 1px solid transparent;
-    border-radius: 0.25rem; */
+    padding: 1.7rem !important;
 
-    font-size: x-large;
-    width: 300px;
-    /* height: 70px; */
+    font-size: xx-large;
+    width: 400px;
 
-    top: 45%;  
+    top: 40%;  
     left: 50%; 
     transform: translate(-50%, -50%);
     display: grid;
-    /* text-align: center; */
-  }
+
+}
 
 .play-button {
     
     background-color: #ffc100 !important;
     border: none !important;
-    width: 150px;
+    width: 170px;
     font-size: small !important;
     color: white !important;
 
@@ -113,39 +109,4 @@ canvas {
 .play-button:hover {
     background-color: #ffa900  !important;
 }
-
-
-.board-cnt {
-    text-align: -webkit-center;
-}
-
-
-.board {
-    width: fit-content;
-    background-size: contain;
-    margin: 1em;
-}
-
-.box {
-    line-height: 150px;
-    height: 150px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 150px;
-    
-    background: transparent;
-    border: none;
-
-    margin: 1em;
-
-
-}
-
-.box > img {
-    height: 150px;
-    width: 150px;
-}
-
 

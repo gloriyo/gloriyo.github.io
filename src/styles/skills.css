@@ -1,0 +1,26 @@
+.skill-div {
+  min-height: 90px;
+}
+/* 
+.skills-container {
+  display: inline-flex;
+} */
+
+.skill-icon {
+  width: 70px;
+  min-height: 4vmin;
+  max-height: 80px;
+  vertical-align: top;
+}
+
+#Express {
+  width: 100px;
+}
+
+#mySQL{
+  width: 90px;
+}
+
+#mongoDB {
+  width: 100px;
+}

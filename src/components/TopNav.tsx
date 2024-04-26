@@ -1,23 +1,24 @@
-import React, { Component, Fragment } from 'react';
-import { Container, Navbar, Nav } from 'react-bootstrap'
+import { Container, Navbar, Nav } from "react-bootstrap";
+import "../styles/nav.css";
 
-const TopNav = () => {
-
-    return (
-
-        <Navbar className="game-nav" bg="light" variant="light">
-            <Container>
-                <Navbar.Brand href="/">Welcome</Navbar.Brand>
-                <Nav className="me-auto">
-                    <Nav.Link className="game-nav-link" href="tic-tac-toe">Tic-Tac-Toe</Nav.Link>
-                    <Nav.Link className="game-nav-link" href="bricks">Bricks</Nav.Link>
-                </Nav>
-                
-
-            </Container>
-        </Navbar>
-    );
-
+function TopNav() {
+  return (
+    <Navbar expand="sm" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Collapse>
+          <Nav className="me-auto" activeKey="/home">
+            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#cv">Skills</Nav.Link>
+            <Nav.Link href="#section-projects">Projects</Nav.Link>
+            <Nav.Link href="game">Play</Nav.Link>
+            <Nav.Link className="nav-disabled" disabled>
+              TBA
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
- 
+
 export default TopNav;

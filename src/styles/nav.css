@@ -1,0 +1,30 @@
+.nav {
+  background-color: #474b53;
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+}
+
+/* .navbar {
+  background-color: aliceblue;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  min-height: 70px;
+} */
+
+.nav-link {
+  color: #d4e2ff!important;
+  font-size: large;
+  padding: 10px 20px;
+}
+
+.nav-disabled {
+  opacity: 40%;
+}
+
+/* #top-nav {
+  text-align: center;
+  background-color: #34373e;
+} */

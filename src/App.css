@@ -1,0 +1,78 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-logo {
+  height: 62vmin;
+  padding: 2em;
+  pointer-events: none;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.page-container {
+  background-color: #3b9efb21;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.app-header {
+  background-color: #3b9efb21;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.card-title {
+  color: #cdf4ffe8!important;
+  font-size: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.card-header {
+  font-size: 1.4rem;
+}
+
+.card-footer {
+  font-size: 1.5rem;
+}
+
+.card-link {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.col {
+  width: fit-content;
+}
+
+.skill-div {
+  min-height: 90px;
+  
+}

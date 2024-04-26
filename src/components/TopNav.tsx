@@ -4,7 +4,8 @@ import "../styles/nav.css";
 function TopNav() {
   return (
     <Navbar expand="sm" className="bg-body-tertiary">
-      <Container>
+      <Container fluid className="justify-content-end">
+        <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="me-auto" activeKey="/home">
             <Nav.Link href="#">Home</Nav.Link>

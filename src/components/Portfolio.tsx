@@ -6,14 +6,15 @@ import TopNav from "./TopNav";
 
 function Portfolio() {
   return (
-    <Container className="page-container p-0">
+    <>
       <TopNav />
-
-      <div className="justify-content-center">
-        <AboutMe />
-        <Projects />
-      </div>
-    </Container>
+      <Container className="page-container p-0">
+        <div className="justify-content-center">
+          <AboutMe />
+          <Projects />
+        </div>
+      </Container>
+    </>
   );
 }
 

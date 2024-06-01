@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <>
       <TopNav />
-      <Container className="page-container p-0">
+      <Container className="justify-content-center page-container p-0">
         <div className="justify-content-center">
           <AboutMe />
           <Projects />

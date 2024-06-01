@@ -4,7 +4,7 @@ import "../styles/skills.css";
 
 function Skills() {
   return (
-    <Container className="skills-container px-3 px-md-5">
+    <Container className="px-3 px-md-5">
       <Row>
         {skills.map((group) => (
           <Col key={group.group} className="col py-3">

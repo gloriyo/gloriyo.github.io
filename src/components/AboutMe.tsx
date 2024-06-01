@@ -6,7 +6,7 @@ import Skills from "./Skills";
 function AboutMe() {
   return (
     <div className="aboutme">
-      <Container className="app-header p-3">
+      <Container className="app-header px-0 py-5">
         <img src={appLogo} className="app-logo" alt="logo" />
         <h1 className="display-3" id="cv">
           {" "}

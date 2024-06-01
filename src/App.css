@@ -1,7 +1,5 @@
 #root {
-  /* max-width: 1280px; */
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
   text-align: center;
 }
 
@@ -27,7 +25,6 @@
 }
 
 .page-container {
-  background-color: #3b9efb21;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,7 +35,7 @@
 }
 
 .app-header {
-  background-color: #3b9efb21;
+  background-color: #c4f2ff1f;
 }
 
 .card {
@@ -47,12 +44,6 @@
 
 .read-the-docs {
   color: #888;
-}
-
-.card-title {
-  color: #cdf4ffe8!important;
-  font-size: 1rem;
-  margin: 0.5rem 0 1rem;
 }
 
 .card-header {
@@ -64,7 +55,7 @@
 }
 
 .card-link {
-  color: #eeeeee;
+  color: #737373;
   text-decoration: none;
 }
 

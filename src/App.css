@@ -1,0 +1,71 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+
+.app-logo {
+  height: 62vmin;
+  padding: 2em;
+  pointer-events: none;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.section-container {
+  padding: 3em 0;
+}
+
+.app-header {
+  background-color: #c4f2ff1f;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.card-header {
+  font-size: 1.4rem;
+}
+
+.card-footer {
+  font-size: 1rem;
+}
+
+.card-link {
+  color: #737373;
+}
+
+.col {
+  width: fit-content;
+}
+
+.skill-div {
+  min-height: 90px;
+}

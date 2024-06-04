@@ -1,0 +1,15 @@
+.nav {
+  background-color: #474b53;
+}
+
+.bg-custom-dark {
+  background-color: #1f252b;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.nav-disabled {
+  opacity: 40%;
+}

@@ -8,13 +8,13 @@ function AboutMe() {
     <div className="aboutme">
       <Container className="app-header px-0 py-5">
         <img src={appLogo} className="app-logo" alt="logo" />
-        <h1 className="display-3" id="cv">
+        <h1 className="display-3" id="section-cv">
           {" "}
           Gloria Yoon
         </h1>
 
         <p className="lead px-4">
-          Computer Science student at SFU with interest in software and web
+          Hi, I'm a software developer with a passion in software and web
           development.
         </p>
       </Container>

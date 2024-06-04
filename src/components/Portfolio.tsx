@@ -10,8 +10,12 @@ function Portfolio() {
       <TopNav />
       <Container className="justify-content-center page-container p-0">
         <div className="justify-content-center">
-          <AboutMe />
-          <Projects />
+          <div>
+            <AboutMe />
+          </div>
+          <div id="section-projects" className="section-container">
+            <Projects />
+          </div>
         </div>
       </Container>
     </>

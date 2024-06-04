@@ -17,7 +17,7 @@ function TopNav() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end px-2">
           <Nav className="jpx-2" activeKey="/home">
-            <Nav.Link href="#cv">Skills</Nav.Link>
+            <Nav.Link href="#section-cv">Skills</Nav.Link>
             <Nav.Link href="#section-projects">Projects</Nav.Link>
             <Nav.Link className="nav-disabled">Play</Nav.Link>
             <Nav.Link className="nav-disabled" disabled>
